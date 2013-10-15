@@ -18,6 +18,13 @@ body {
   z-index: 15;
 }
 
+.navbar-brand {
+  border-right: 1px solid #eeeeee;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #ffffff;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
