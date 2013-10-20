@@ -324,13 +324,14 @@ textarea {
 }
 
 a {
-  color: #428bca;
+  color: #999999;
+
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #2a6496;
+  color: #000;
   text-decoration: underline;
 }
 
@@ -3848,12 +3849,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .nav-tabs {
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 2px solid #dddddd;
 }
 
 .nav-tabs > li {
-  float: left;
-  margin-bottom: -1px;
+  float: right;
+  margin-bottom: -2px;
 }
 
 .nav-tabs > li > a {
@@ -3873,7 +3874,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   color: #555555;
   cursor: default;
   background-color: #ffffff;
-  border: 1px solid #dddddd;
+  border: 2px solid #dddddd;
   border-bottom-color: transparent;
 }
 
