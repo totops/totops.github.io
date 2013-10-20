@@ -35,6 +35,7 @@ body {
 
   /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
   margin-top: -90px;
+  background: white;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -56,6 +57,14 @@ body {
 .carousel-inner {
 	max-width:1280px;
 	margin:auto;
+}
+
+.carouselContainer{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	max-width: 1280px;
+	margin: auto;
 }
 
 
